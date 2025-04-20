@@ -1,5 +1,6 @@
 import { ThemeSwitcher } from "./components/ThemeSwitcher";
 import "./App.css";
+// ※このファイルでは `ThemeProvider` は使わない（main.tsxでラップ）
 
 export const App = () => {
   return (
